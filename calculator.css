@@ -1,0 +1,27 @@
+body {
+	//background-color: blue;
+}
+
+.calculator-container {
+	//border: 1px solid black;
+	width: 200px;
+	height: 400px;
+}
+
+.header-bar {
+	border: 1px solid red;
+	width: 200px;
+	height: 30px;
+}
+
+.display {
+	border: 1px solid blue;
+	width: 200px;
+	height: 70px;
+}
+
+.button-pad {
+	border: 1px solid green;
+	width: 200px;
+	height: 300px;
+}
