@@ -1,27 +1,52 @@
-body {
-	//background-color: blue;
+* {
+  box-sizing: border-box;
 }
 
-.calculator-container {
-	//border: 1px solid black;
+body {	
+}
+/*.calculator-container {
+	border: 2px solid black;
 	width: 200px;
 	height: 400px;
 }
-
+*/
 .header-bar {
 	border: 1px solid red;
-	width: 200px;
-	height: 30px;
+	width: 400px;
+	height: 20px;
 }
 
 .display {
 	border: 1px solid blue;
-	width: 200px;
-	height: 70px;
+	width: 400px;
+	height: 120px;
 }
 
 .button-pad {
 	border: 1px solid green;
-	width: 200px;
-	height: 300px;
+	width: 400px;
+	height: 600px;	
+}
+
+.button-row {
+	height: 16.66%;
+	border: 1px solid black;
+}
+
+.button {	
+ 	float: left;
+	border: 1px solid blue;
+	height: 100%;	
+}
+
+.del-button {
+	width: 50%;
+}
+
+.clear-button {
+	width: 50%;
+}
+
+.four-buttons {
+	width: 25%;
 }
