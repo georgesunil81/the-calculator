@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-bar {
+	border: 1px solid black;
+	width: 400px;
+	height: 20px;
+}
+
+.display {
+	border: 1px solid black;
+	width: 400px;
+	height: 120px;
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-size: 80px;
+	padding-top: 20px;
+}
+
+.button-pad {
+	width: 400px;
+	height: 600px;	
+}
+
+.button-row {
+	height: 16.66%;
+}
+
+.button {	
+ 	float: left;
+	border: 1px solid black;
+	height: 100%;	
+	text-align: center;
+	padding-top: 35px;
+	font-size: 25px;
+	background-color: lightgray;
+}
+
+.del-button {
+	width: 50%;
+}
+
+.clear-button {
+	width: 50%;
+}
+
+.four-buttons {
+	width: 25%;
+}
+
+.blank-button-left {
+	border-left: 0;
+}
+
+.blank-button-right {
+	border-right: none;
+}
+
+.function-button {
+	background-color: #f68f12;
+	color: white;
+}
